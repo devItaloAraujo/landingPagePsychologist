@@ -3,11 +3,11 @@ import React from 'react'; // Add the missing import statement for React
 import { AboutMe } from './components/Aboutme'
 import Header from './components/Header'
 import Provider from './context/provider'
-import { Skills } from './components/Skills'
-import { HorizontalDivider } from './components/Horizontal'
+import { Experiences } from './components/Experiences.jsx'
 import { Contact } from './components/Contact'
 import PortugueseContent from './helpers/content.js'
-import SocialMedia from './components/SocialMedia/index.jsx';
+import { Education } from './components/Education.jsx';
+
 
 
 function App() {
@@ -17,8 +17,8 @@ function App() {
     <Provider>
       <Header />
       <AboutMe />
-      <Skills />
-      <HorizontalDivider />
+      <Education />
+      <Experiences />
       <Contact content={PortugueseContent} />
     </Provider>
   )

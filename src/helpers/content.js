@@ -21,7 +21,7 @@
         works: "Trabalhos",
         // istOfWorks: listOfWorksPtBr,
         contact: "Contato",
-        contactText: "(31) 97258 - 5701",
+        contactText: "Entre em contato e agende uma consulta",
         formContent: formContent
     };
 

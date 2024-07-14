@@ -54,7 +54,7 @@ export function ContactForm({ formId, content }) {
             {({ isSubmitting, status }) => (
                 <motion.div
                     whileHover={{ scale: 1.05 }}
-                    className="flex flex-col bg-second-blue rounded-lg items-center px-2 max-w-xl m-4"
+                    className="flex flex-col bg-[#45316E] rounded-lg items-center px-2 max-w-xl m-4"
                 >
                     <Form className="w-full p-4">
                         <div className="mb-4">

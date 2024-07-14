@@ -1,5 +1,4 @@
 import { motion } from 'framer-motion'
-import { HorizontalDivider } from './Horizontal'
 import { IoLogoWhatsapp } from 'react-icons/io'
 
 const linkDaFoto = 'https://media.licdn.com/dms/image/D4D03AQGW8KPgNFTBSQ/profile-displayphoto-shrink_800_800/0/1716395382819?e=1726099200&v=beta&t=YW7KuSaMcaso1c6WEY06FcwCW5uCqk-_8y6zGRZ-e6U';
@@ -10,7 +9,7 @@ export function AboutMe() {
         <motion.div
           animate={{ scale: [1, 1.05, 1] }}
           transition={{ duration: 1 }}
-          className="flex flex-wrap justify-center h-500 bg-gradient-to-b from-[#FFFFFF] to-[#D1A3EE] rounded-lg"
+          className="flex flex-wrap justify-center max-h-[800px] bg-gradient-to-b from-[#FFFFFF] to-[#D1A3EE]"
         >
           <motion.div
             whileHover={{ scale: 1.05 }}
@@ -42,7 +41,7 @@ export function AboutMe() {
                   href="https://api.whatsapp.com/send?phone=5531972585701&text=Contato%20Pelo%20Site"
                   target="_blank"
                   rel="noreferrer"
-                  className='flex items-center justify-center gap-2'
+                  className='flex items-center justify-center gap-2 text-xl'
                 >
                 <span>(31) 97258-5701</span>
                 <IoLogoWhatsapp size={'2em'} />
@@ -52,7 +51,6 @@ export function AboutMe() {
           </div>
           </motion.div>
         </motion.div>
-        <HorizontalDivider />
       </>
       
     )
