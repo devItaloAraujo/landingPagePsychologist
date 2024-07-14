@@ -16,6 +16,7 @@ const HeaderContainer = styled.header`
   background-repeat: no-repeat;
   background-size: cover;
   display: flex;
+  min-width: 420px;
   width: 100%;
   height: 100px;
   align-items: center;

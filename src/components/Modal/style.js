@@ -2,9 +2,8 @@ import styled from 'styled-components';
 
 const ModalContainer = styled.div`
   background-color: #a5d6af;
-  background-image: linear-gradient( to top, #127890,
-    #2bc0e4,
-    #eaecc6);
+  background-image: linear-gradient( to top, #ffffff,
+    #f7b583);
   background-position: top center;
   background-repeat: no-repeat;
   background-size: cover;
@@ -30,9 +29,8 @@ const ModalContainer = styled.div`
     padding: 20px;
     border: none;
     background: none;
-    font-size: 16px;
+    font-size: 20px;
     font-family: 'Nunito', sans-serif;
-    color: #127890;
     font-weight: bold;
     cursor: pointer;
     width: 100%;
