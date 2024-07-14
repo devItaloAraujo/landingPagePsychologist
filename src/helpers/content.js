@@ -4,6 +4,8 @@
         placeHolderEmail: "Email",
         invalidEmail: "Endereço de email inválido",
         emailRequired: "Por favor, insira seu email",
+        placeHolderWhatsapp: "Telefone",
+        whatsappRequired: "Por favor, insira seu número de telefone",
         placeHolderMessage: "Mensagem",
         messageRequired: "Por favor, insira uma mensagem",
         messageSucess: "Mensagem enviada com sucesso!",

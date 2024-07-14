@@ -19,12 +19,14 @@ export function ContactForm({ formId, content }) {
         name: '',
         email: '',
         message: '',
+        whatsapp: '', 
     };
 
     const validationSchema = Yup.object({
         name: Yup.string().required(formContent.nameRequired),
         email: Yup.string().email(formContent.invalidEmail).required(formContent.emailRequired),
         message: Yup.string().required(formContent.messageRequired),
+        whatsapp: Yup.string().required(formContent.whatsappRequired),
     });
 
     const handleSubmit = async (values, { setSubmitting, resetForm, setStatus }) => {
@@ -78,6 +80,17 @@ export function ContactForm({ formId, content }) {
                                 className="w-full px-3 py-2 border rounded"
                             />
                             <ErrorMessage name="email" component="div" className="text-red-500" />
+                        </div>
+                        <div className="mb-4">
+                            <label htmlFor="whatsapp" className="block text-gray-700">WhatsApp</label>
+                            <Field
+                                type="text"
+                                name="whatsapp"
+                                id="whatsapp"
+                                placeholder={formContent.placeHolderWhatsapp}
+                                className="w-full px-3 py-2 border rounded"
+                            />
+                            <ErrorMessage name="whatsapp" component="div" className="text-red-500" />
                         </div>
                         <div className="mb-4">
                             <label htmlFor="message" className="block text-gray-700">Message</label>
