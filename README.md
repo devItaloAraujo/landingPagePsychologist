@@ -1,8 +1,8 @@
-# React + Vite
+# Overview
 
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
+![Image](https://raw.githubusercontent.com/devItaloAraujo/landingPagePsychologist/main/overview.png)
 
-Currently, two official plugins are available:
+# Description
 
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react/README.md) uses [Babel](https://babeljs.io/) for Fast Refresh
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react-swc) uses [SWC](https://swc.rs/) for Fast Refresh
+This project is a landing page for a psychologist, built using React and Vite.
+
