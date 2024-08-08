@@ -4,7 +4,7 @@ import { IoCloseCircle } from 'react-icons/io5';
 
 const modalData = [
   { id: '#education', name: 'Formação' },
-  { id: '#experiences', name: 'Experiências' },
+  { id: '#experiences', name: 'Abordagem' },
   { id: '#contact', name: 'Contato' },
 ];
 
