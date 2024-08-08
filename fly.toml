@@ -1,9 +1,9 @@
-# fly.toml app configuration file generated for thatipsi on 2024-07-12T11:07:57-03:00
+# fly.toml app configuration file generated for psicologathatiaraujo on 2024-07-14T20:01:58-03:00
 #
 # See https://fly.io/docs/reference/configuration/ for information about how to use this file.
 #
 
-app = 'thatipsi'
+app = 'psicologathatiaraujo'
 primary_region = 'gru'
 
 [build]
